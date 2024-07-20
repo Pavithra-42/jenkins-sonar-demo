@@ -21,7 +21,7 @@ URL : https://sonarcloud.io/login
    -  Give your preferred name of SonarServer, in Jenkinsfile we will referring it. (sonarcloud)
    -  Give server url as  - https://sonarcloud.io
    -  Select token credentials that we created above
-   -  
+   -  Need to give name of sonar cloud organization and token in project based on requirement
 
 ## Trobleshooting: 
 -If you are not able to get your analysis on SonarQube Dashboard, then try to create your a project In SonarQube with some name and key and use same key in your jenkinsfile. 
